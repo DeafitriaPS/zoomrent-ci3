@@ -2,7 +2,7 @@
     <div class="row">
         <section>
             <div class="container py-4">
-                <form action="<?= base_url('/tamu/save_formpesan'); ?>" method="post">
+                <form action="<?= base_url('pesan'); ?>" method="post">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-8 col-lg-8 col-xl-6">
                             <div class="row">
@@ -44,8 +44,8 @@
                             </div>
                             <div class="row align-items-center">
                                 <div class="col mt-4">
-                                    <label class="form-label">Tanggal Peminjaman</label>
-                                    <input type="text" class="form-control date" name="tanggalpeminjaman" required>
+                                    <label class="form-label">Tanggal Sewa</label>
+                                    <input type="text" class="form-control date" name="tgl_sewa" required>
                                 </div>
                                 <script id="rendered-js">
                                     $('.date').datepicker({
@@ -55,7 +55,7 @@
                                 </script>
                             </div>
 
-                            <button class="btn btn-primary btn-block mt-3" type="submit">Submit</button>
+                            <button <a href="<?= base_url('tamu/pembayaran'); ?>" class="btn btn-primary btn-block mt-3" type="submit">Submit</button>
                         </div>
                     </div>
                 </form>

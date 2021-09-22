@@ -53,7 +53,7 @@
                 </ul>
                 <span class="pricing-price">Rp 1.234.567</span>
                 <p class="pricing-detail">*Harga sudah termasuk PPN 10%</p>
-                <a href="/pages/formpesan" class="pricing-button">Pesan Sekarang</a>
+                <a href="<?= base_url(); ?>tamu/formpesan" class="pricing-button">Pesan Sekarang</a>
             </div>
 
             <div class="pricing-plan">
